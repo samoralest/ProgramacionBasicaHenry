@@ -17,7 +17,7 @@ int main() {
             exito = 1;  
               
         } else {
-            printf("Lo siento, contraseña equivocada\n");
+            printf("contraseña equivocada\n");
         }
     }
 
@@ -27,4 +27,5 @@ int main() {
 
     return 0;
 }
+
 
