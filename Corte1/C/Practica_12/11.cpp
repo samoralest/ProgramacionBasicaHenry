@@ -6,18 +6,18 @@ int main() {
     char intento[50];
     int i, exito = 0;
 
-    printf("Tienes 3 intentos para ingresar la contraseña.\n");
+    printf("Tienes 3 intentos para ingresar la contraseÃ±a.\n");
 
     for (i = 1; i <= 3; i++) {
         printf("Intento %d: ", i);
         scanf("%s", intento);
 
         if (strcmp(intento, contrasenaCorrecta) == 0) {
-            printf("Contraseña Correcta\n");
+            printf("ContraseÃ±a Correcta\n");
             exito = 1;  
-            break;     
+              
         } else {
-            printf("Lo siento, contraseña equivocada\n");
+            printf("Lo siento, contraseÃ±a equivocada\n");
         }
     }
 
@@ -27,3 +27,4 @@ int main() {
 
     return 0;
 }
+
