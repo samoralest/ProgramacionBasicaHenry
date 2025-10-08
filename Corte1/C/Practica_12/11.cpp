@@ -15,6 +15,7 @@ int main() {
         if (strcmp(intento, contrasenaCorrecta) == 0) {
             printf("Contraseña Correcta\n");
             exito = 1;  
+            break;
               
         } else {
             printf("contraseña equivocada\n");
@@ -27,5 +28,6 @@ int main() {
 
     return 0;
 }
+
 
 
