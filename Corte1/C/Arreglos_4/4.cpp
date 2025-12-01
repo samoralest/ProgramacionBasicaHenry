@@ -3,20 +3,20 @@
 int main() {
     int n, i, j;
 
-    printf("Ingrese el tamaño de la matriz: ");
+    printf("Ingrese el tamaÃ±o del vector: ");
     scanf("%d", &n);
 
     int m1[n][n];
     int max[n]; 
 
-    printf("\nIngrese los elementos de la matriz:\n");
+    printf("\nIngrese los elementos del vector:\n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
             scanf("%d", &m1[i][j]);
         }
     }
 
-    printf("\nlos elementos de la matiz son:\n");
+    printf("\nlos elementos del vector son:\n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
             printf("%d ", m1[i][j]);
@@ -40,3 +40,4 @@ int main() {
     }
     printf("\n");
 }
+
